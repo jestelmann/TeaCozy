@@ -10,7 +10,8 @@ html {
 }
 
 body {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -59,9 +60,9 @@ header li {
 }
 
 .mission {
-    display: flex;
+    display:inline-flex;
+    flex: 1, 1, 1200px;
     height: 700px;
-    width: 1200px;
     background-image: url("../images/img-mission-background.jpg");
     background-position: center;
     background-repeat:no-repeat;
@@ -127,8 +128,8 @@ header li {
 
 .locations {
     display:flex;
+    flex: 1,1, 1200px;
     height: 500px;
-    width: 1200px;
     background-image: url(../images/img-locations-background.jpg);
     background-position: center;
     background-repeat:no-repeat;
