@@ -125,3 +125,51 @@ header li {
     text-align: center;
 }
 
+.locations {
+    display:flex;
+    height: 500px;
+    width: 1200px;
+    background-image: url(../images/img-locations-background.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    box-sizing: border-box;
+}
+
+.locations h2 {
+    margin-bottom: 15px;
+}
+
+.locations .addresses {
+    margin-top: 15px;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.loc {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    background-color: black;
+    /*opacity: 1;*/
+    margin: 0 20px;
+}
+
+.contact {
+    display:flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    padding-top: 4rem;
+    padding-left: 20px;
+}
